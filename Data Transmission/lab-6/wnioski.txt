@@ -1,0 +1,1 @@
+Kody Hamminga są w stanie skorygować jeden błędny bit oraz wykryć do dwóch bitów błędnych. W procesie dekodowania wyznaczana jest syndrom, który wskazuje indeks błędnego bitu, co pozwala na jego skorygowanie.

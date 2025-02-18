@@ -1,0 +1,15 @@
+	DFT	FFT
+x	13,1942	0,0017211
+y	13,107	0,001581
+z	13,0599	0,0015534
+v	13,2472	0,0015861
+u	17,7172	0,0016137
+b1	7,21275	0,0013508
+b2	7,17762	0,0013159
+b3	7,35647	0,0013389
+suma	92,07234 0,0120609
+
+
+Wnioski:
+FFT jest znacznie szybsze od zwykłego DFT. 
+Przy FFT każda z transformat trwała tylko około 0.001 sekundy, dla porównania średni czas wykonywania transformat przy użyciu DFT około wynosił 11,5 sekundy.

@@ -1,0 +1,8 @@
+W przypadku demodulacji koherentnej sygnału ASK i PSK w pierwszej kolejności wymnażamy sygnał z sygnałem, o takiej samej fazie nośnej, następnie obliczamy pole pod wykresem w danych przedziałąch, które porównujemy w komparatorze z progiem h. W tak utworzonym sygnale wybieramy wartość bitu 1 lub 0 w zależności, która z tych wartości dominuje w danym przedziale.
+
+Demodulacja sygnału FSK jest bardziej złożona, ponieważ sygnał jest mnożony przez dwa różne sygnały nośne. Następnie oba sygnały są również całkowane, po czym wyznaczana jest różnica między nimi, która porównywana jest z progiem h. 
+W tak utworzonym sygnale wybieramy wartość bitu 1 lub 0 w zależności, która z tych wartości dominuje w danym przedziale.
+
+Demodulacja koherentna sygnału ASK i PSK różni się jedynie progiem w komparatorze.
+Demodulacja koherentna sygnału FSK jest bardziej złożona.
+Każda z demodulacji wymaga aby sygnał w odbiorniku był zgodny z fazą sygnału nośnego wykorzystywanego w nadajniku do modulacji.

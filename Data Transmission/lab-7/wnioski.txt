@@ -1,0 +1,4 @@
+FSK oraz PSK było odporne na szum, natomiast ASK już przy małych wartościach alfy generowała błędy.
+FSK oraz PSK było odporne na tłumienie niezależnie od wysokości parametru beta, natomiast BER w przypadku ASK był zauważalny już przy bardzo małych wartościach beta.
+
+Na podstawie wykresu z pliku wykresy.pdf można wywnioskować, że lepsze rezultaty daje tłumienie zaszumionego sygnału, a niżeli szumienie stłumionego sygnału. W pierwszym przypadku można zaobserwować więcej punktów w kolorze niebieskim(najniższe wartości BER).

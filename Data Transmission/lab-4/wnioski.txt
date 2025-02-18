@@ -1,0 +1,15 @@
+za(3dB): BxdB = 0 Hz
+za(6dB): BxdB = 0 Hz
+za(12dB): fmin = 15, fmax = 23, BxdB = 8 Hz
+zp(3dB): fmin = 18, fmax = 20, BxdB = 2 Hz
+zp(6dB): fmin = 15, fmax = 25, BxdB = 10 Hz
+zp(12dB): fmin = 2, fmax = 35, BxdB = 33 Hz
+zf(3dB): BxdB = 0 Hz
+zf(6dB): fmin = 35, fmax = 40, BxdB = 5 Hz
+zf(12dB): fmin = 25, fmax = 45, BxdB = 20 Hz
+ 
+Wnioski:
+Kluczowanie ASK: różne zakresy wartości sinusa w zależności od wartości bitu.
+Kluczowanie PSK: w przypadku wystąpienia wartości bitu 1 faza sinusa jest przesunięta.
+Kluczowanie FSK: różne częstotliwości sinusa(różna liczba okresów sinusa) w zależności od wartości bitu.
+

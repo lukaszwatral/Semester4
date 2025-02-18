@@ -1,0 +1,33 @@
+W modulacji amplitudowej, im wyższy parametr kA, tym większa amplituda sygnału modulowanego.
+W modulacji fazy i częstotliwości, im wyższy parametr kP/kF, tym więcej prążków o wyższej częstotliwości w okolicy sygnału nośnego.
+Zbyt duże parametry kA, kP i kF mogą prowadzić do przemodulowania sygnału.
+
+
+Zadanie 4.
+za_a(3dB): BxdB = 0 Hz
+za_a(6dB): BxdB = 0 Hz
+za_a(12dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+za_b(3dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+za_b(6dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+za_b(12dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+za_c(3dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+za_c(6dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+za_c(12dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+zp_a(3dB): BxdB = 0 Hz
+zp_a(6dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+zp_a(12dB): fmin = 950, fmax = 1050, BxdB = 100 Hz
+zp_b(3dB): fmin = 900, fmax = 1100, BxdB = 200 Hz
+zp_b(6dB): fmin = 900, fmax = 1100, BxdB = 200 Hz
+zp_b(12dB): fmin = 850, fmax = 1150, BxdB = 200 Hz
+zp_c(3dB): fmin = 300, fmax = 1700, BxdB = 1400 Hz
+zp_c(6dB): fmin = 250, fmax = 1750, BxdB = 1500 Hz
+zp_c(12dB): fmin = 150, fmax = 1850, BxdB = 1700 Hz
+zf_a(3dB): BxdB = 0 Hz
+zf_a(6dB): BxdB = 0 Hz
+zf_a(12dB): BxdB = 0 Hz
+zf_b(3dB): BxdB = 0 Hz 
+zf_b(6dB): BxdB = 0 Hz
+zf_b(12dB): BxdB = 0 Hz
+zf_c(3dB): BxdB = 0 Hz
+zf_c(6dB): BxdB = 0 Hz
+zf_c(12dB): fmin = 950, fmax = 1050, BxdB = 100 Hz

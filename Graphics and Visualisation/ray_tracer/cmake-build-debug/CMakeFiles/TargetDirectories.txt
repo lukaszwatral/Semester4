@@ -1,0 +1,3 @@
+C:/Users/Łukasz/GiW_2024_224A_Watral_Lukasz/ray_tracer/cmake-build-debug/CMakeFiles/rt.dir
+C:/Users/Łukasz/GiW_2024_224A_Watral_Lukasz/ray_tracer/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Łukasz/GiW_2024_224A_Watral_Lukasz/ray_tracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

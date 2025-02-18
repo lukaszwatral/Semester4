@@ -1,0 +1,21 @@
+Przy wyłowaniu funkcji do demodulacji brakowało argumentu liczby bitów.
+
+Dla podanych danych funkcje działały prawidłowo, lecz w przypadku zmienienia Tc, np. na wartość 2 - wtedy kod generowałby błędy.
+
+O to miejsca w kodzie, w których dokonałem zmiany:
+
+///dodanie argumentu B
+bity_a = d_ASK(ask, fs, Tb, fn) ---> bity_a = d_ASK(ask, fs, Tb, fn, B);
+bity_p = d_PSK(psk, fs, Tb, fn) ---> bity_p = d_PSK(psk, fs, Tb, fn, B)
+bity_f = d_FSK(fsk, fs, Tb, W) ---> bity_f = d_FSK(fsk, fs, Tb, W, B);
+
+A także w każdej z funkcji demodulacji dokonałem następujących zmian:
+
+/// usunąłem linijkę
+int N = fs / Tbp;
+///zmieniłem iterator pętli do obliczania sumy
+for (int j = 0; j < N; j++) ---> for (int j = 0; j < B; j++)
+///oraz argument funkcji do zmiany sygnału na bity
+bn = syg2bit(ct, N, Tbp) ---> bn = syg2bit(ct, B, Tbp);
+
+
